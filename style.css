@@ -1,1 +1,41 @@
-{}
+header {
+    text-align: center;
+}
+
+body {
+    background-color: rgba(31, 73, 12, 0.5);
+}
+
+aside {
+    text-align: center;
+    border: 20px solid rgb(46, 139, 87);
+}
+
+.main {
+    background-color: rgba(243, 241, 241, 0.5);
+}
+
+.footer {
+    background-color: rgba(180, 180, 180, 0.5);
+}
+
+.footer_github {
+    display: block;
+    width: 30%;
+    height: 30px;
+    background: url(./assets/svg/github.svg) center center no-repeat;
+}
+
+.footer_rsschool {
+    display: block;
+    width: 30%;
+    height: 30px;
+    background: url(./assets/svg/rs_school_js.svg) center center no-repeat;
+    position: absolute;
+}
+
+.footer_year {
+    display: block;
+    width: 30%;
+    height: 30px;
+}
