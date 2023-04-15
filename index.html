@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/ico/resume.ico" rel="shortcut icon">
+    <title>Alexander Samak CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Source+Code+Pro&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <img class="profile-img" src="./assets/photo.jpg" alt="my_photo" width="150">
+            <div>
+                <nav class="menu-wrapper">
+                    <ul class="menu-nav">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                        <li><a href="#code">Code</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </nav>
+                <div class="name-wrapper">
+                    <h1 class="h1"><span class="bold">ALEXANDER</span>SAMAK</h1>
+                    <h2 class="h2">JUNIOR FRONT-END WEB DEVELOPER</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-wrapper">
+            <div class="left-side">
+                <div>
+                    <h2 id="about" class="underline">ABOUT ME</h2>
+                    <span>I am an aspiring web developer with excellent communication skills and willing to learn new
+                        programming
+                        languages. I enjoy learning Javascript and work well in a team. Always glad to learn something
+                        new and really interesting.</span>
+                </div>
+                <div>
+                    <h2 id="contacts" class="underline top">CONTACTS</h2>
+                    <ul class="contacts">
+                        <li><img src="./assets/svg/location.svg" alt="location" width="50">Minsk, Belarus.</li>
+                        <li><img src="./assets/svg/discord.svg" alt="discord" width="50">AlxndrSmk (@AlxndrSmk)</li>
+                        <li><img src="./assets/svg/mail.svg" alt="mail" width="50">voprosy262@gmail.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 id="skills" class="underline top">SKILLS</h2>
+                    <ul class="skills">
+                        <li>HTML</li>
+                        <li>CSS (BEM methodology)</li>
+                        <li>JavaScript (Fundamentals, Functional Programming, OOP, Asynchronous JavaScript, ES6+, DOM,
+                            JSON)</li>
+                        <li>Version control: Git</li>
+                        <li>Figma (for web-developing)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-side">
+                <div>
+                    <h2 id="education" class="underline">EDUCATION:</h2>
+                    <ul class="education">
+                        <li>JS/FE Pre-School 2022Q2 <span class="bold">2022</span></li>
+                        <li>JS/FE Pre-School 2022Q4 <span class="bold">2022-2023</span></li>
+                        <li>JS/FE 2023Q1 <span class="bold">2023</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 id="languages" class="underline top">LANGUAGES:</h2>
+                    <ul class="languages">
+                        <li>English Pre-Intermeditate</li>
+                        <li>Russian Native</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 id="code" class="underline top">CODE EXAMPLE</h2>
+                    <div class="code">
+                        <pre>
+                            <code>
+    function reverseWords(str) {
+        let strSplitted &equals; str.split(' ');
+        return strSplitted.map((element) &equals; &gt;
+            element.split('').reverse().join('')).join(' ');
+    }
+                        </code>
+                        </pre>
+                    </div>
+                </div>
+                <div>
+                    <h2 id="projects" class="underline top">MY PROJECTS</h2>
+                    <ul class="projects">
+                        <li><a href="https://rolling-scopes-school.github.io/alxndrsmk-JSFEPRESCHOOL2022Q2/travel/"
+                                target="_blank">Travel</a></li>
+                        <li><a href="https://rolling-scopes-school.github.io/alxndrsmk-JSFEPRESCHOOL2022Q4/plants/"
+                                target="_blank">Plants</a></li>
+                        <li><a href="https://rolling-scopes-school.github.io/alxndrsmk-JSFEPRESCHOOL2022Q4/momentum/"
+                                target="_blank">Momentum</a></li>
+                        <li><a href="https://rolling-scopes-school.github.io/alxndrsmk-JSFE2023Q1/shelter/pages/main/index.html"
+                                target="_blank">Shelter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/AlxndrSmk" target="_blank">
+            <img src="./assets/svg/github.svg" alt="github_icon" width="60">
+        </a>
+        <span>© 2023</span>
+        <a href="https://rs.school/js/" target="_blank">
+            <img src="./assets/svg/rsschool.svg" alt="github_icon" width="110">
+        </a>
+    </footer>
+</body>
+
+</html>
